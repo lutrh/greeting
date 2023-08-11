@@ -13,9 +13,18 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>greeting</name>
     <description>A sample app to demo spring boot native</description>
+
+    <repositories>
+        <repository>
+            <id>Github</id>
+            <url>https://github.com/lutrh/greeting</url>
+        </repository>
+    </repositories>
+
     <properties>
         <java.version>17</java.version>
     </properties>
+    
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
