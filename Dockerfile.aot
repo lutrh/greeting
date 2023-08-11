@@ -1,0 +1,7 @@
+FROM ibm-semeru-runtimes:open-17-jre-focal
+
+WORKDIR /usr/src/app
+
+COPY ./target/greeting ./app
+
+ENTRYPOINT ["./app"]
